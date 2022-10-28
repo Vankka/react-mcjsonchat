@@ -1,0 +1,30 @@
+{
+  "name": "react-mcjsonchat",
+  "version": "1.0.0",
+  "description": "React components to render Minecraft chat json",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Vankka",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^18.0.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "tslib": "^2.4.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}

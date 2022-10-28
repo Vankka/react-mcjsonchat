@@ -1,0 +1,8 @@
+.idea
+dist
+node_modules
+
+# Regular react website stuff for testing
+public
+src/App.js
+src/index.js
